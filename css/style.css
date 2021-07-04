@@ -1,0 +1,156 @@
+*{
+    margin: o auto;
+    
+}
+.container{
+    margin:0 auto;
+    overflow:hidden;
+
+}
+.logo img {
+    margin: 36px 0 20px 61px;
+    padding: 20px;
+    float: left;
+}
+nav {
+    float: right;
+    padding: 20px;
+    margin: 20px;
+}
+nav ul {
+padding-right: 10px;
+}
+ul li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+ul li a {
+    text-transform: uppercase;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    color: #000;
+    transition: .3sec all;
+}
+ul li a:hover {
+    background: white;
+    color: yellow;
+}
+button a {
+    font-size: 17px;
+    background-color: #f6d601;
+    padding: 7px 35px;
+    display: inline-block;
+    border-radius: 30px;
+}
+button{
+    border:none;
+}
+button a:hover {
+color:white;
+background-color: yellow;
+outline:none;
+}
+.bodypart{
+    background-image: url("img/banner.jpg");
+}
+.bodypart h1 {
+    font-family:'righteous', cursive;
+    text-align: center;
+    font-size: 67px;
+    line-height: 90px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
+}
+.bodypart strong {
+    font-family:'righteous', cursive;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom:10px;
+    display: block;
+}
+.bodypart span {
+    font-family:'righteous', cursive;
+    color: #f6d601;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    display: block;
+    text-align:center;
+}
+
+  .bodypart{
+      background-image: url("../img/banner.jpg");
+  }
+.bodypart p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family: 'righteous', cursive;;
+}
+.bodypart a{
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
+    background-color: #fff;
+    color: #000;
+    padding: 13px 0px;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    position:initial;
+    font-weight: bold;
+    margin-bottom: 150px;
+    text-decoration: none;
+}  
+.bodypart a:hover{
+    border-radius: 30px;
+    background-color: yellow;
+}
+.titlepage {
+    text-align : center;
+    padding-bottom: 60px;
+}
+
+.car .titlepage h2 {
+    color: #030100;
+    margin-bottom: 20px;
+}
+.titlepage h2 {
+    font-size: 45px;
+    color: #3e3e3e;
+    line-height: 50px;
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'rightous',cursive;
+}
+.titlepage span {
+    font-family: 'rightous',cursive;
+    line-height: 17px;
+    font-size: 18px;
+}
+.carbox {
+    float: left;
+    width: 33%;
+}
+.carbox h3 {
+    background: yellow;
+    margin: 0;
+    padding: 0px;
+    font-size: 30px;
+    line-height: 84px;
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+}
